@@ -1,1 +1,49 @@
-{}
+{
+    "files.eol": "\n",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true
+      // Our ignores
+      // "**/.eslintrc": true,
+      // "**/.eslintignore": true,
+      // "**/.prettierrc": true,
+      // "**/.prettierignore": true,
+      // "**/jest.config.js": true,
+      // "**/LICENSE": true
+    },
+  
+    "editor.fontFamily": "Menlo, Consolas, DejaVu Sans Mono, monospace",
+    "editor.fontWeight": "bold",
+    "editor.fontSize": 15,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.organizeImports": false
+    },
+    "explorer.confirmDelete": true,
+    "terminal.integrated.tabs.focusMode": "singleClick",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.fontWeightBold": "bold",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.colorTheme": "Andromeda",
+    "workbench.iconTheme": "material-icon-theme",
+    "vsicons.dontShowNewVersionMessage": true,
+    "vsicons.projectDetection.autoReload": true,
+    "git.autoRepositoryDetection": true,
+    "git.confirmSync": true,
+    "git.autofetch": true,
+    "eslint.workingDirectories": [{ "pattern": "./packages/*" }],
+    "git-graph.date.format": "Relative",
+    "git-graph.repository.commits.showSignatureStatus": true,
+    "git-graph.referenceLabels.alignment": "Branches (aligned to the graph) & Tags (on the right)"
+  }
